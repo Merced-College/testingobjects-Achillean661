@@ -58,6 +58,7 @@ public class Dog {
         return breed;
     }
 
+    // Print out for class object.
     @Override
     public String toString() {
         return "Dog{name = '" + name + "', age = '" + age + "', breed = '" + breed + "'}";
